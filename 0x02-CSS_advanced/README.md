@@ -3,4 +3,4 @@
 
 <p>This will take you to Google <a target="_blank" href="https://www.google.com">A Link to google</a></p>
 
-- This will take you to Google _"https://www.google.com"_ A Link to google
+- This will take you to Google _https://www.google.com_ [A Link to google]  [[A Link to google]]
