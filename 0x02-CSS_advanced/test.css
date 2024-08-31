@@ -1,0 +1,62 @@
+:root {
+  --color: #000;
+  --background-color-parent: #fff;
+  --background-color-child: #f00;
+  --col-1-3: 33.33%;;
+  --col-1-2: 50%;
+  --list-item-background-color: #f0f;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+section {
+  background-color: var(--background-color-parent);
+}
+
+.container {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul.row {
+	list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.row::after {
+  content: "";
+	display: table;
+	clear: both;
+}
+
+ul.row {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+[class^="col-"] {
+	float: left;
+	padding: 0.5rem;
+}
+.col-1-3 {
+	width: 33.33%;
+}
+
+.card-services a {
+	display: block;
+	padding: 2rem;
+	background-color: gray;
+}
+.card-services a:hover {
+	color: white;
+	background-color: orange;
+	text-decoration: none;
+}
+
+.card-services .card-title {
+	margin: 0;
+}
